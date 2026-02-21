@@ -1,43 +1,24 @@
-# Introduction to Python Programming
+# Please write a function named count_matching_elements(my_matrix: list, element: int), 
+# which takes a two-dimensional array of integers and a single integer value as its arguments.
+# The function then counts how many elements within the matrix match the argument value.
 
-**A hands-on, exercise-driven repository for building programming fundamentals and problem-solving skill.**
+# An example of how the function should work:
 
----
+# Sample output
+# 3
 
-## About this repository (Part 1 of 2)
 
-This repository is the **first part** of a two-repo learning series:
+def count_matching_elements(my_matrix: list, element: int):
+    count = 0 
+    for row in my_matrix:
+        for item in row:
+            if item == element:
+                count = count + 1
+    return count
 
-1. **Introduction to Programming** (this repo) — fundamentals, core patterns, and problem solving.  
-2. **Advanced Python Programming** — (separate repo) advanced techniques, libraries, and projects.
+def main():
+    m = [[1, 2, 1], [0, 3, 4], [1, 0, 0]]
+    print(count_matching_elements(m, 1))
 
-In this repo you will find a curated set of exercises from **easy → medium → hard**. Each exercise is chosen with a specific purpose: to strengthen your mental models and sharpen algorithmic thinking, not just to produce code.
-
----
-
-## How I work (short)
-
-- Read the problem and visualize a small example.
-- Try solving it independently for 15–30 minutes.
-- If stuck, ask a focused question and iterate.
-- Produce a clean solution and add a short note explaining the key idea.
-
-This process is intentionally disciplined: struggle, diagnose, fix, and record.
-
----
-
-## What’s in this repo
-
-This repository is organized by programming topics. Each topic folder contains multiple practice problems and their solutions.
-
-The purpose is not just solving questions, but strengthening:
-
-- Logical thinking  
-- Pattern recognition  
-- Mental visualization of code  
-- Independent problem-solving ability  
-
-This repo grows topic-by-topic as I progress deeper into programming.
-
----
-
+if __name__ == "__main__":
+    main()
