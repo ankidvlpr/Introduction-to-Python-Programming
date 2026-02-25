@@ -20,7 +20,7 @@ In this repo you will find a curated set of exercises from **easy → medium →
 - Read the problem and visualize a small example.
 - Try solving it independently for 15–30 minutes.
 - If stuck, ask a focused question and iterate.
-- Produce a clean solution and add a short note explaining the key idea.
+- Produce a clean solution and vizualizing the key idea.
 
 This process is intentionally disciplined: struggle, diagnose, fix, and record.
 
