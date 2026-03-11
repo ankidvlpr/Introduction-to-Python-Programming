@@ -1,0 +1,3 @@
+PROCESSED: {'username': 'singha', 'domain': 'gmail.com'}
+Invalid email : SIDHJSSHJAm
+PROCESSED: {'username': 'singha', 'domain': 'gmail.coo'}
