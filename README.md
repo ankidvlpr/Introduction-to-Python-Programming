@@ -1,43 +1,48 @@
 # Introduction to Python Programming
 
-**A hands-on, exercise-driven repository for building programming fundamentals and problem-solving skill.**
+**A hands-on repository for learning Python fundamentals through focused practice, repetition, and problem solving.**
 
 ---
 
-## About this repository (Part 1 of 2)
+## Overview
 
-This repository is the **first part** of a two-repo learning series:
+This repository is the **first part** of a two-repo learning journey:
 
-1. **Introduction to Programming** (this repo) — fundamentals, core patterns, and problem solving.  
-2. **Advanced Python Programming** — (separate repo) advanced techniques, libraries, and projects.
+1. **Introduction to Python Programming** - fundamentals, core syntax, and problem-solving practice  
+2. **Advanced Python Programming** - advanced concepts, libraries, and larger projects
 
-In this repo you will find a curated set of exercises from **easy → medium → hard**. Each exercise is chosen with a specific purpose: to strengthen your mental models and sharpen algorithmic thinking, not just to produce code.
+The goal of this repo is not just to solve exercises, but to build strong programming habits:
 
----
+- logical thinking  
+- pattern recognition  
+- code reading and mental tracing  
+- independent problem solving
 
-## How I work (short)
-
-- Read the problem and visualize a small example.
-- Try solving it independently for 15–30 minutes.
-- If stuck, ask a focused question and iterate.
-- Produce a clean solution and vizualizing the key idea.
-
-This process is intentionally disciplined: struggle, diagnose, fix, and record.
+Exercises generally progress from **easy -> medium -> hard**, with each folder focusing on a specific topic area.
 
 ---
 
-## What’s in this repo
+## Learning Approach
 
-This repository is organized by programming topics. Each topic folder contains multiple practice problems and their solutions.
+- Read the problem carefully and break it into smaller parts
+- Try solving it independently for 20-30 minutes
+- If stuck, ask a focused question and iterate
+- Write a clean solution and understand the key idea behind it
 
-The purpose is not just solving questions, but strengthening:
-
-- Logical thinking  
-- Pattern recognition  
-- Mental visualization of code  
-- Independent problem-solving ability  
-
-This repo grows topic-by-topic as I progress deeper into programming.
 
 ---
+
+## Repository Map
+
+- `01_Basics` - Functions, function practice, pipeline flow
+- `02_Basics` - Lists, loops, strings, print formatting
+- `03_Basics` - Dictionaries, tuples, references, nested lists
+- `04_Basics` - File reading, file writing, error handling
+- `05_Basics` - Modules, randomness, JSON processing
+
+---
+
+## Purpose
+
+This repository grows topic by topic as I move deeper into programming fundamentals. It serves as both a practice archive and a record of steady progress.
 
